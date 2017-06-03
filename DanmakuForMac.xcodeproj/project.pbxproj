@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393DD56B1C4B87380004DC2C /* XUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 393DD56A1C4B87380004DC2C /* XUIViewAdditions.m */; };
+		393DD56E1C4B87980004DC2C /* XUIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 393DD56D1C4B87980004DC2C /* XUIBase.m */; };
+		393DD5701C4B887A0004DC2C /* danmakufile in Resources */ = {isa = PBXBuildFile; fileRef = 393DD56F1C4B887A0004DC2C /* danmakufile */; };
 		397E935A1C4A197900D369F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E93591C4A197900D369F1 /* AppDelegate.m */; };
 		397E935D1C4A197900D369F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E935C1C4A197900D369F1 /* main.m */; };
 		397E935F1C4A197900D369F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397E935E1C4A197900D369F1 /* Assets.xcassets */; };
 		397E93621C4A197900D369F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397E93601C4A197900D369F1 /* MainMenu.xib */; };
+		397E937B1C4A198A00D369F1 /* DanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E936B1C4A198A00D369F1 /* DanmakuView.m */; };
+		397E937C1C4A198A00D369F1 /* DanmakuBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E936E1C4A198A00D369F1 /* DanmakuBaseModel.m */; };
+		397E937D1C4A198A00D369F1 /* DanmakuTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E93701C4A198A00D369F1 /* DanmakuTime.m */; };
+		397E937E1C4A198A00D369F1 /* DanmakuRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E93731C4A198A00D369F1 /* DanmakuRenderer.m */; };
+		397E937F1C4A198A00D369F1 /* DanmakuRetainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E93751C4A198A00D369F1 /* DanmakuRetainer.m */; };
+		397E93801C4A198A00D369F1 /* DanmakuFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E93781C4A198A00D369F1 /* DanmakuFactory.m */; };
+		397E93811C4A198A00D369F1 /* DanmakuFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E937A1C4A198A00D369F1 /* DanmakuFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		393DD5691C4B87380004DC2C /* XUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUIViewAdditions.h; sourceTree = "<group>"; };
+		393DD56A1C4B87380004DC2C /* XUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUIViewAdditions.m; sourceTree = "<group>"; };
+		393DD56C1C4B87980004DC2C /* XUIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUIBase.h; sourceTree = "<group>"; };
+		393DD56D1C4B87980004DC2C /* XUIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUIBase.m; sourceTree = "<group>"; };
+		393DD56F1C4B887A0004DC2C /* danmakufile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = danmakufile; sourceTree = "<group>"; };
 		397E93551C4A197900D369F1 /* DanmakuForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanmakuForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397E93581C4A197900D369F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		397E93591C4A197900D369F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +36,20 @@
 		397E935E1C4A197900D369F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		397E93611C4A197900D369F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		397E93631C4A197900D369F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397E936A1C4A198A00D369F1 /* DanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuView.h; sourceTree = "<group>"; };
+		397E936B1C4A198A00D369F1 /* DanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuView.m; sourceTree = "<group>"; };
+		397E936D1C4A198A00D369F1 /* DanmakuBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuBaseModel.h; sourceTree = "<group>"; };
+		397E936E1C4A198A00D369F1 /* DanmakuBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuBaseModel.m; sourceTree = "<group>"; };
+		397E936F1C4A198A00D369F1 /* DanmakuTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuTime.h; sourceTree = "<group>"; };
+		397E93701C4A198A00D369F1 /* DanmakuTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuTime.m; sourceTree = "<group>"; };
+		397E93721C4A198A00D369F1 /* DanmakuRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuRenderer.h; sourceTree = "<group>"; };
+		397E93731C4A198A00D369F1 /* DanmakuRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuRenderer.m; sourceTree = "<group>"; };
+		397E93741C4A198A00D369F1 /* DanmakuRetainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuRetainer.h; sourceTree = "<group>"; };
+		397E93751C4A198A00D369F1 /* DanmakuRetainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuRetainer.m; sourceTree = "<group>"; };
+		397E93771C4A198A00D369F1 /* DanmakuFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuFactory.h; sourceTree = "<group>"; };
+		397E93781C4A198A00D369F1 /* DanmakuFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuFactory.m; sourceTree = "<group>"; };
+		397E93791C4A198A00D369F1 /* DanmakuFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuFilter.h; sourceTree = "<group>"; };
+		397E937A1C4A198A00D369F1 /* DanmakuFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393DD5651C4B86FE0004DC2C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				393DD56C1C4B87980004DC2C /* XUIBase.h */,
+				393DD56D1C4B87980004DC2C /* XUIBase.m */,
+				393DD5691C4B87380004DC2C /* XUIViewAdditions.h */,
+				393DD56A1C4B87380004DC2C /* XUIViewAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		397E934C1C4A197900D369F1 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +93,11 @@
 		397E93571C4A197900D369F1 /* DanmakuForMac */ = {
 			isa = PBXGroup;
 			children = (
+				393DD5651C4B86FE0004DC2C /* Categories */,
+				397E93691C4A198900D369F1 /* HJDanmaku */,
 				397E93581C4A197900D369F1 /* AppDelegate.h */,
 				397E93591C4A197900D369F1 /* AppDelegate.m */,
+				393DD56F1C4B887A0004DC2C /* danmakufile */,
 				397E935E1C4A197900D369F1 /* Assets.xcassets */,
 				397E93601C4A197900D369F1 /* MainMenu.xib */,
 				397E93631C4A197900D369F1 /* Info.plist */,
@@ -69,6 +112,51 @@
 				397E935C1C4A197900D369F1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397E93691C4A198900D369F1 /* HJDanmaku */ = {
+			isa = PBXGroup;
+			children = (
+				397E936A1C4A198A00D369F1 /* DanmakuView.h */,
+				397E936B1C4A198A00D369F1 /* DanmakuView.m */,
+				397E936C1C4A198A00D369F1 /* Model */,
+				397E93711C4A198A00D369F1 /* Renderer */,
+				397E93761C4A198A00D369F1 /* Util */,
+			);
+			path = HJDanmaku;
+			sourceTree = "<group>";
+		};
+		397E936C1C4A198A00D369F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				397E936D1C4A198A00D369F1 /* DanmakuBaseModel.h */,
+				397E936E1C4A198A00D369F1 /* DanmakuBaseModel.m */,
+				397E936F1C4A198A00D369F1 /* DanmakuTime.h */,
+				397E93701C4A198A00D369F1 /* DanmakuTime.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		397E93711C4A198A00D369F1 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				397E93721C4A198A00D369F1 /* DanmakuRenderer.h */,
+				397E93731C4A198A00D369F1 /* DanmakuRenderer.m */,
+				397E93741C4A198A00D369F1 /* DanmakuRetainer.h */,
+				397E93751C4A198A00D369F1 /* DanmakuRetainer.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		397E93761C4A198A00D369F1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				397E93771C4A198A00D369F1 /* DanmakuFactory.h */,
+				397E93781C4A198A00D369F1 /* DanmakuFactory.m */,
+				397E93791C4A198A00D369F1 /* DanmakuFilter.h */,
+				397E937A1C4A198A00D369F1 /* DanmakuFilter.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +218,7 @@
 			files = (
 				397E935F1C4A197900D369F1 /* Assets.xcassets in Resources */,
 				397E93621C4A197900D369F1 /* MainMenu.xib in Resources */,
+				393DD5701C4B887A0004DC2C /* danmakufile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397E937E1C4A198A00D369F1 /* DanmakuRenderer.m in Sources */,
+				397E937B1C4A198A00D369F1 /* DanmakuView.m in Sources */,
+				397E937D1C4A198A00D369F1 /* DanmakuTime.m in Sources */,
 				397E935D1C4A197900D369F1 /* main.m in Sources */,
+				397E93801C4A198A00D369F1 /* DanmakuFactory.m in Sources */,
+				393DD56B1C4B87380004DC2C /* XUIViewAdditions.m in Sources */,
+				397E93811C4A198A00D369F1 /* DanmakuFilter.m in Sources */,
+				393DD56E1C4B87980004DC2C /* XUIBase.m in Sources */,
+				397E937F1C4A198A00D369F1 /* DanmakuRetainer.m in Sources */,
+				397E937C1C4A198A00D369F1 /* DanmakuBaseModel.m in Sources */,
 				397E935A1C4A197900D369F1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +379,7 @@
 				397E93681C4A197900D369F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
